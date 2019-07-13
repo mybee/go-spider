@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/mybee/gospider/web/core"
+	"github.com/mybee/go-spider/web/core"
 	"github.com/pkg/errors"
 )
 

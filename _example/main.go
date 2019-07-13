@@ -2,11 +2,11 @@ package main
 
 import (
 	"github.com/mybee/gospider"
-	_ "github.com/mybee/gospider/_example/rule/baidunews"
-	_ "github.com/mybee/gospider/_example/rule/fire"
-	_ "github.com/mybee/gospider/_example/rule/58"
-	_ "github.com/mybee/gospider/_example/rule/dianping"
-	_ "github.com/mybee/gospider/_example/rule/mojitianqi"
+	_ "github.com/mybee/go-spider/_example/rule/baidunews"
+	_ "github.com/mybee/go-spider/_example/rule/fire"
+	_ "github.com/mybee/go-spider/_example/rule/58"
+	_ "github.com/mybee/go-spider/_example/rule/dianping"
+	_ "github.com/mybee/go-spider/_example/rule/mojitianqi"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -11,7 +11,7 @@ import (
 
 	"github.com/gocolly/colly"
 	"github.com/gocolly/colly/proxy"
-	"github.com/mybee/gospider/common"
+	"github.com/mybee/go-spider/common"
 	"github.com/pkg/errors"
 )
 

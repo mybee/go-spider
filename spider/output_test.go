@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
-	"github.com/mybee/gospider/common"
+	"github.com/mybee/go-spider/common"
 	"github.com/stretchr/testify/suite"
 )
 

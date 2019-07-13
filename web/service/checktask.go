@@ -2,9 +2,9 @@ package service
 
 import (
 	"github.com/jinzhu/gorm"
-	"github.com/mybee/gospider/common"
-	"github.com/mybee/gospider/web/core"
-	"github.com/mybee/gospider/web/model"
+	"github.com/mybee/go-spider/common"
+	"github.com/mybee/go-spider/web/core"
+	"github.com/mybee/go-spider/web/model"
 	log "github.com/sirupsen/logrus"
 )
 

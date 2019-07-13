@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mybee/gospider/spider"
+	"github.com/mybee/go-spider/spider"
 	log "github.com/sirupsen/logrus"
 )
 

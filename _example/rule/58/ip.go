@@ -2,7 +2,7 @@ package ip
 
 import (
 	"fmt"
-	"github.com/mybee/gospider/spider"
+	"github.com/mybee/go-spider/spider"
 	log "github.com/sirupsen/logrus"
 	"strings"
 	"unicode"

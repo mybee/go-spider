@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 
 	"github.com/gocolly/colly"
-	"github.com/mybee/gospider/common"
+	"github.com/mybee/go-spider/common"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

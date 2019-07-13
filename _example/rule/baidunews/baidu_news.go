@@ -1,7 +1,7 @@
 package baidunews
 
 import (
-	"github.com/mybee/gospider/spider"
+	"github.com/mybee/go-spider/spider"
 	log "github.com/sirupsen/logrus"
 )
 

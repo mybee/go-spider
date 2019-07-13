@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mybee/gospider/web/core"
+	"github.com/mybee/go-spider/web/core"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/mybee/gospider/common"
-	"github.com/mybee/gospider/spider"
-	"github.com/mybee/gospider/web/model"
+	"github.com/mybee/go-spider/common"
+	"github.com/mybee/go-spider/spider"
+	"github.com/mybee/go-spider/web/model"
 	"github.com/pkg/errors"
 )
 

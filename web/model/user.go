@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/mybee/gospider/web/core"
+	"github.com/mybee/go-spider/web/core"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/crypto/bcrypt"
 )

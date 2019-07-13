@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mybee/gospider/web/core"
-	"github.com/mybee/gospider/web/model"
+	"github.com/mybee/go-spider/web/core"
+	"github.com/mybee/go-spider/web/model"
 	"github.com/sirupsen/logrus"
 )
 
