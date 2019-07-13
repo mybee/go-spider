@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/nange/gospider/web/core"
-	"github.com/nange/gospider/web/model"
-	"github.com/nange/gospider/web/router"
-	"github.com/nange/gospider/web/service"
+	"github.com/mybee/gospider/web/core"
+	"github.com/mybee/gospider/web/model"
+	"github.com/mybee/gospider/web/router"
+	"github.com/mybee/gospider/web/service"
 	"github.com/pkg/errors"
 )
 

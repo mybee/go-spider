@@ -6,12 +6,12 @@ import (
 	jwt "github.com/appleboy/gin-jwt/v2"
 	"github.com/gin-gonic/gin"
 	"github.com/gobuffalo/packr"
-	"github.com/nange/gospider/web/core"
-	"github.com/nange/gospider/web/model"
-	"github.com/nange/gospider/web/router/exportdb"
-	"github.com/nange/gospider/web/router/rule"
-	"github.com/nange/gospider/web/router/task"
-	"github.com/nange/gospider/web/router/user"
+	"github.com/mybee/gospider/web/core"
+	"github.com/mybee/gospider/web/model"
+	"github.com/mybee/gospider/web/router/exportdb"
+	"github.com/mybee/gospider/web/router/rule"
+	"github.com/mybee/gospider/web/router/task"
+	"github.com/mybee/gospider/web/router/user"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/nange/gospider/common"
-	"github.com/nange/gospider/web/core"
-	"github.com/nange/gospider/web/model"
+	"github.com/mybee/gospider/common"
+	"github.com/mybee/gospider/web/core"
+	"github.com/mybee/gospider/web/model"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

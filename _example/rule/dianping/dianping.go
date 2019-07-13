@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nange/gospider/spider"
+	"github.com/mybee/gospider/spider"
 	log "github.com/sirupsen/logrus"
 )
 

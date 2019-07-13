@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/nange/gospider/common"
+	"github.com/mybee/gospider/common"
 )
 
 // ===== BEGIN of all query sets

@@ -1,7 +1,7 @@
-[![GoDoc](https://godoc.org/github.com/nange/gospider?status.svg)](https://godoc.org/github.com/nange/gospider)
-[![Build Status](https://travis-ci.com/nange/gospider.svg?branch=master)](https://travis-ci.org/nange/gospider)
-[![Go Report Card](https://goreportcard.com/badge/github.com/nange/gospider)](https://goreportcard.com/report/github.com/nange/gospider)
-[![codecov.io](https://codecov.io/github/nange/gospider/branch/master/graph/badge.svg)](https://codecov.io/github/nange/gospider)
+[![GoDoc](https://godoc.org/github.com/mybee/gospider?status.svg)](https://godoc.org/github.com/mybee/gospider)
+[![Build Status](https://travis-ci.com/mybee/gospider.svg?branch=master)](https://travis-ci.org/mybee/gospider)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mybee/gospider)](https://goreportcard.com/report/github.com/mybee/gospider)
+[![codecov.io](https://codecov.io/github/mybee/gospider/branch/master/graph/badge.svg)](https://codecov.io/github/mybee/gospider)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnange%2Fgospider.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnange%2Fgospider?ref=badge_shield)
 
 
@@ -34,7 +34,7 @@ MySQL
 gospider可以配置一下相关环境变量: 
 GOSPIDER_DB_HOST、GOSPIDER_DB_PORT、GOSPIDER_DB_USER、GOSPIDER_DB_PASSWORD、GOSPIDER_DB_NAME、GOSPIDER_WEB_IP、GOSPIDER_WEB_PORT
 
-本地开发环境: [安装](https://github.com/nange/gospider/wiki/Install)
+本地开发环境: [安装](https://github.com/mybee/gospider/wiki/Install)
 
 ## 使用方式
 `_example` 目录提供了使用实例, rule目录里面包含了爬取规则, 编译成功后直接运行。在浏览器打开: http://localhost:8080/admin
@@ -44,7 +44,7 @@ GOSPIDER_DB_HOST、GOSPIDER_DB_PORT、GOSPIDER_DB_USER、GOSPIDER_DB_PASSWORD、
 package baidunews
 
 import (
-	"github.com/nange/gospider/spider"
+	"github.com/mybee/gospider/spider"
 	log "github.com/sirupsen/logrus"
 )
 

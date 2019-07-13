@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/nange/gospider"
-	_ "github.com/nange/gospider/_example/rule/baidunews"
-	_ "github.com/nange/gospider/_example/rule/fire"
-	_ "github.com/nange/gospider/_example/rule/58"
-	_ "github.com/nange/gospider/_example/rule/dianping"
-	_ "github.com/nange/gospider/_example/rule/mojitianqi"
+	"github.com/mybee/gospider"
+	_ "github.com/mybee/gospider/_example/rule/baidunews"
+	_ "github.com/mybee/gospider/_example/rule/fire"
+	_ "github.com/mybee/gospider/_example/rule/58"
+	_ "github.com/mybee/gospider/_example/rule/dianping"
+	_ "github.com/mybee/gospider/_example/rule/mojitianqi"
 	log "github.com/sirupsen/logrus"
 )
 

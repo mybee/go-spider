@@ -1,7 +1,7 @@
 package gospider_test
 
 import (
-	"github.com/nange/gospider"
+	"github.com/mybee/gospider"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -1,4 +1,4 @@
-module github.com/nange/gospider
+module github.com/mybee/gospider
 
 require (
 	cloud.google.com/go v0.26.0 // indirect

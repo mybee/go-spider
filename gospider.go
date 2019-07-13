@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nange/gospider/web/core"
+	"github.com/mybee/gospider/web/core"
 
-	"github.com/nange/gospider/common"
-	"github.com/nange/gospider/web"
+	"github.com/mybee/gospider/common"
+	"github.com/mybee/gospider/web"
 	"github.com/pkg/errors"
 )
 

@@ -3,7 +3,7 @@ package firenews
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/nange/gospider/spider"
+	"github.com/mybee/gospider/spider"
 	log "github.com/sirupsen/logrus"
 	"io/ioutil"
 	"net/http"
