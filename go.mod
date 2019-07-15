@@ -1,4 +1,4 @@
-module github.com/mybee/gospider
+module github.com/mybee/go-spider
 
 require (
 	cloud.google.com/go v0.26.0 // indirect

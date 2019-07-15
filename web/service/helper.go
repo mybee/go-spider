@@ -53,6 +53,7 @@ func GetSpiderTaskByModel(task *model.Task) (*spider.Task, error) {
 	config := spider.TaskConfig{
 		CronSpec: task.CronSpec,
 		Option: spider.Option{
+			TaskName:               task.TaskName,
 			UserAgent:              task.OptUserAgent,
 			MaxDepth:               task.OptMaxDepth,
 			AllowedDomains:         optAllowedDomains,

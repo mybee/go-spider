@@ -1,6 +1,7 @@
 package baidunews
 
 import (
+	"fmt"
 	"github.com/mybee/go-spider/spider"
 	log "github.com/sirupsen/logrus"
 )
@@ -46,7 +47,7 @@ var rule = &spider.TaskRule{
 
 var step1 = &spider.Node{
 	OnRequest: func(ctx *spider.Context, req *spider.Request) {
-
+		fmt.Println("🍤🍯", ctx.Task.Option.TaskName)
 		log.Println("Visting", req.URL.String())
 	},
 	OnHTML: map[string]func(*spider.Context, *spider.HTMLElement) error{

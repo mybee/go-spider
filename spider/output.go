@@ -21,13 +21,13 @@ func (ctx *Context) Output(row map[int]interface{}, namespace ...string) error {
 
 	switch len(namespace) {
 	case 0:
-		outputFields = ctx.task.OutputFields
-		ns = ctx.task.Namespace
+		outputFields = ctx.Task.OutputFields
+		ns = ctx.Task.Namespace
 	case 1:
-		if !ctx.task.OutputToMultipleNamespace {
+		if !ctx.Task.OutputToMultipleNamespace {
 			return ErrOutputToMultipleTableDisabled
 		}
-		multConf, ok := ctx.task.MultipleNamespaceConf[namespace[0]]
+		multConf, ok := ctx.Task.MultipleNamespaceConf[namespace[0]]
 		if !ok {
 			return ErrMultConfNamespaceNotFound
 		}
@@ -43,7 +43,7 @@ func (ctx *Context) Output(row map[int]interface{}, namespace ...string) error {
 	}
 	log.Debugf("output row:%+v", row)
 
-	switch ctx.task.OutputConfig.Type {
+	switch ctx.Task.OutputConfig.Type {
 	case common.OutputTypeMySQL:
 		if err := ctx.outputToDB(row, outputFields, ns); err != nil {
 			return err

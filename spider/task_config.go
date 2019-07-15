@@ -26,6 +26,7 @@ type TaskConfig struct {
 
 // Option is the config option of a task
 type Option struct {
+	TaskName               string
 	UserAgent              string
 	MaxDepth               int
 	AllowedDomains         []string

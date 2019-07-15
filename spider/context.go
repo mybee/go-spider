@@ -24,7 +24,7 @@ const reqContexKey key = 0
 
 // Context gospider context of each callback
 type Context struct {
-	task  *Task
+	Task  *Task
 	c     *colly.Collector
 	nextC *colly.Collector
 
@@ -39,7 +39,7 @@ type Context struct {
 
 func newContext(ctx context.Context, cancel context.CancelFunc, task *Task, c *colly.Collector, nextC *colly.Collector) (*Context, error) {
 	gsCtx := &Context{
-		task:      task,
+		Task:      task,
 		c:         c,
 		nextC:     nextC,
 		ctlCtx:    ctx,
@@ -84,7 +84,7 @@ func (ctx *Context) cloneWithReq(req *colly.Request) *Context {
 	newctx := context.WithValue(ctx.ctlCtx, reqContexKey, req)
 
 	return &Context{
-		task:           ctx.task,
+		Task:           ctx.Task,
 		c:              ctx.c,
 		nextC:          ctx.nextC,
 		ctlCtx:         newctx,
