@@ -17,7 +17,7 @@ type Request struct {
 	Body    io.Reader
 	ID      uint32
 
-	req    *colly.Request
+	Req    *colly.Request
 	reqCtx *colly.Context
 
 	ctx *Context
@@ -30,7 +30,7 @@ func newRequest(req *colly.Request, ctx *Context) *Request {
 		Method:  req.Method,
 		Body:    req.Body,
 		ID:      req.ID,
-		req:     req,
+		Req:     req,
 		reqCtx:  req.Ctx,
 		ctx:     ctx,
 	}
